@@ -72,6 +72,8 @@ python3 auditor.py
 
 ##  Sample Audit Output
 
-* *(Add screenshots of your terminal running a weak password like `admin123` vs. a compliant passphrase here!)*
-  * `screenshots/01-weak-password-audit.png`
-  * `screenshots/02-strong-passphrase-audit.png`
+### 1. Weak / Non-Compliant Password Audit (`admin123`)
+![Weak Password Audit](screenshots/01-weak-password-audit.png)
+
+### 2. Strong / Compliant Passphrase Audit & `bcrypt` Verification
+![Strong Passphrase Audit](screenshots/02-strong-passphrase-audit.png)
