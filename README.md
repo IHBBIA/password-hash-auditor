@@ -1,4 +1,4 @@
-# 🔐 Enterprise Password Policy & Cryptographic Hash Auditor
+#  Enterprise Password Policy & Cryptographic Hash Auditor
 
 A Python command-line security tool designed to audit password strength against enterprise compliance policies, calculate bit entropy and offline GPU brute-force crack times, and demonstrate secure cryptographic storage using salted `bcrypt` hashing.
 
@@ -6,7 +6,7 @@ Built to explore applied cryptography, authentication security, and defensive re
 
 ---
 
-## 🔄 Audit & Cryptographic Verification Flowchart
+##  Audit & Cryptographic Verification Flowchart
 
 ```mermaid
 flowchart TD
@@ -36,7 +36,7 @@ flowchart TD
 
 ---
 
-## 🛡️ Security Concepts Demonstrated
+##  Security Concepts Demonstrated
 
 ### 1. Password Entropy & Brute-Force Resistance
 * **Bit Entropy (`E = L × log₂(R)`):** Evaluates unpredictability based on password length (`L`) and character pool size (`R`, up to 94 printable ASCII characters). Every additional bit doubles the keyspace an attacker must search.
@@ -54,7 +54,7 @@ flowchart TD
 
 ---
 
-## 🚀 Setup & Usage
+##  Setup & Usage
 
 ### 1. Install Dependencies
 ```bash
@@ -70,7 +70,7 @@ python3 auditor.py
 
 ---
 
-## 📸 Sample Audit Output
+##  Sample Audit Output
 
 * *(Add screenshots of your terminal running a weak password like `admin123` vs. a compliant passphrase here!)*
   * `screenshots/01-weak-password-audit.png`
