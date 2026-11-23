@@ -72,8 +72,8 @@ python3 auditor.py
 
 ##  Sample Audit Output
 
-### 1. Weak / Non-Compliant Password Audit (`admin123`)
+### 1. Weak / Non-Compliant Password Audit (`admin123`) & `bcrypt` Verification
 ![Weak Password Audit](screenshots/01-weak-password-audit.png)
 
-### 2. Strong / Compliant Passphrase Audit & `bcrypt` Verification
-![Strong Passphrase Audit](screenshots/02-strong-passphrase-audit.png)
+### 2. Strong / Compliant Password Audit & `bcrypt` Verification
+![Strong Passphrase Audit](screenshots/02-strong-password-audit.png)
